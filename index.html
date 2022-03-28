@@ -79,68 +79,136 @@
     <!-- MY WORK-->
     <section class="my-work" id="work">
         <h2 class="section__title section__title--work">My work</h2>
-        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+        <p class="section__subtitle section__subtitle--work">Photography</p>
 
         <div class="portfolio">
             <!-- Portfolio item 01-->
-            <a href="#" class="portfolio__item">
-                <img src="/images/portfolio01.jpg" alt="" class="portfolio__img">
-            </a>
+            <p class="portfolio__item">
+                <img src="/images/portfolio01.jpg" alt="Rene" class="portfolio__img image">
+            </p>
 
             <!-- Portfolio item 02-->
-            <a href="#" class="portfolio__item">
-                <img src="/images/portfolio02.jpg" alt="" class="portfolio__img">
-            </a>
+            <p class="portfolio__item">
+                <img src="/images/portfolio02.jpg" alt="" class="portfolio__img image" id="portfolio02">
+            </p>
 
             <!-- Portfolio item 03-->
-            <a href="#" class="portfolio__item">
-                <img src="/images/portfolio03.jpg" alt="" class="portfolio__img">
-            </a>
+            <p class="portfolio__item">
+                <img src="/images/portfolio03.jpg" alt="" class="portfolio__img image">
+            </p>
 
             <!-- Portfolio item 04-->
-            <a href="#" class="portfolio__item">
-                <img src="/images/portfolio4.jpg" alt="" class="portfolio__img">
-            </a>
+            <p class="portfolio__item">
+                <img src="/images/portfolio04.jpg" alt="" class="portfolio__img image">
+            </p>
 
             <!-- Portfolio item 05-->
-            <a href="#" class="portfolio__item">
-                <img src="/images/portfolio05.jpg" alt="" class="portfolio__img">
-            </a>
+            <p class="portfolio__item">
+                <img src="/images/portfolio05.jpg" alt="" class="portfolio__img image">
+            </p>
 
             <!-- Portfolio item 06-->
-            <a href="#" class="portfolio__item">
-                <img src="/images/portfolio06.jpg" alt="" class="portfolio__img">
-            </a>
+            <p class="portfolio__item">
+                <img src="/images/portfolio06.jpg" alt="" class="portfolio__img image">
+            </p>
 
             <!-- Portfolio item 07-->
-            <a href="#" class="portfolio__item">
-                <img src="/images/portfolio07.jpg" alt="" class="portfolio__img">
-            </a>
+            <p class="portfolio__item">
+                <img src="/images/portfolio07.jpg" alt="" class="portfolio__img image">
+            </p>
+        </div>
 
+
+        <!--GRAPHIC DESIGN-->
+        <p class="section__subtitle section__subtitle--work">Graphic Design</p>
+
+        <div class="portfolio">
+            
             <!-- Portfolio item 08-->
-            <a href="#" class="portfolio__item">
-                <img src="/images/portfolio08.jpg" alt="" class="portfolio__img">
-            </a>
+            <p class="portfolio__item">
+                <img src="/images/portfolio08.jpg" alt="" class="portfolio__img image">
+            </p>
 
             <!-- Portfolio item 09-->
-            <a href="#" class="portfolio__item">
-                <img src="/images/portfolio09.jpg" alt="" class="portfolio__img">
-            </a>
+            <p class="portfolio__item">
+                <img src="/images/portfolio09.jpg" alt="" class="portfolio__img image">
+            </p>
 
             <!-- Portfolio item 10-->
-            <a href="#" class="portfolio__item">
-                <img src="/images/portfolio10.jpg" alt="" class="portfolio__img">
-            </a>
+            <p class="portfolio__item">
+                <img src="/images/portfolio10.jpg" alt="" class="portfolio__img image">
+            </p>
 
             <!-- Portfolio item 11-->
-            <a href="#" class="portfolio__item">
-                <img src="/images/portfolio11.png" alt="" class="portfolio__img">
-            </a>
+            <p class="portfolio__item">
+                <img src="/images/portfolio11.png" alt="" class="portfolio__img image">
+            </p>
 
-            <!-- Portfolio item 1-->
-            <a href="#" class="portfolio__item">
-                <img src="/images/portfolio12.png" alt="" class="portfolio__img">
-            </a>
+            <!-- Portfolio item 13-->
+            <p class="portfolio__item">
+                <img src="/images/portfolio13.png" alt="" class="portfolio__img image">
+            </p>
+
+            <!-- Portfolio item 14-->
+            <p class="portfolio__item">
+                <img src="/images/portfolio14.png" alt="" class="portfolio__img image">
+            </p>
+
+            <!-- Portfolio item 15-->
+            <p class="portfolio__item">
+                <img src="/images/portfolio15.png" alt="" class="portfolio__img image">
+            </p>
+
+            <!-- Portfolio item 16-->
+            <p class="portfolio__item">
+                <img src="/images/portfolio16.png" alt="" class="portfolio__img image">
+            </p>
+        </div>
+
+
+        <!--ANIMATION-->
+        <div class="container">
+            <h1>MY ANIMATION WORKS</h1>
+            <div class="row">
+                <div class="col">
+                    <div class="feature-img">
+                        <img src="./media/pic1.png" width="100%">
+                        <img src="./media/play.png" class="play-btn">
+                        <img src="./media/play.png" class="play-btn" onclick="playVideo('./media/ep1.mp4')">
+                        <p>TUNGURA UMUKUNZI EP1 - Antoinette NIYONGIRA & Bosco (Cartoon)</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="small-img-row">
+                        <div class="small-img">
+                            <img src="./media/pic2.png">
+                            <img src="./media/play.png" class="play-btn" onclick="playVideo('./media/ep2.mp4')">
+                        </div>
+                        <p>TUNGURA UMUKUNZI EP2 - Antoinette<br>NIYONGIRA & Joseph (Cartoon)</p>
+                    </div>
+                    <div class="small-img-row">
+                        <div class="small-img">
+                            <img src="./media/pic3.png">
+                            <img src="./media/play.png" class="play-btn" onclick="playVideo('./media/intonganya.mp4')">
+                        </div>
+                        <p>Intonganya mu muryango (Cartoon)</p>
+                    </div>
+                    <div class="small-img-row">
+                        <div class="small-img">
+                            <img src="./media/pic4.png">
+                            <img src="./media/play.png" class="play-btn" onclick="playVideo('./media/rukiga.mp4')">
+                        </div>
+                        <p>Rukiga Challenge (Cartoon)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-player" id="videoPlayer">
+            <video width="100%" controls id="myVideo">
+                <source src="./media/ep1.mp4" type="video/mp4">
+            </video>
+            <img src="./media/close.png" class="close-btn" onclick="stopVideo()">
         </div>
     </section>
 
