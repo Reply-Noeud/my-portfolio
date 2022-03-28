@@ -439,18 +439,18 @@ header {
 
 .footer__link:hover,
 .social-list__link:hover {
-    opacity: .7;
+    opacity: .8;
 }
 
-.footer__link:hover {
+/*.footer__link:hover {
     text-decoration: underline;
-}
+}*/
 
 .social-list {
     list-style: none;
     display: flex;
     justify-content: center;
-    margin: 2em 0 0;
+    margin: .5em 0 1em 0;
     padding: 0;
 }
 
