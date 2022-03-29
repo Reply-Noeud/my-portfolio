@@ -27,7 +27,6 @@ function playVideo (file) {
     myVideo.src = file;
     videoPlayer.style.display = 'block';
     myVideo.autoplay = true;
-    document.getElementById("feature-img").style.display = 'none';
 }
 
 
