@@ -637,8 +637,8 @@ video:focus {
     .video-player {
         width: 92%;
         position: absolute;
-        left: 48%;
-        top: 1790%;
+        left: 50%;
+        top: 1770%;
         transform: translate(-50%, -50%);
         display: none;
     }
