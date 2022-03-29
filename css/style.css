@@ -606,6 +606,7 @@ header {
     top: 40%;
     transform: translate(-50%, -50%);
     cursor: pointer;
+    opacity: .6;
 }
 .small-img .play-btn {
     width: 60px;
@@ -614,6 +615,7 @@ header {
     top: 50%;
     transform: translate(-50%, -50%);
     cursor: pointer;
+    opacity: .6;
 }
 
 .small-img .play-btn {
@@ -639,6 +641,7 @@ video:focus {
     right: 10px;
     width: 30px;
     cursor: pointer;
+    opacity: .8;
 }
 
 @media (max-width: 720px) {
