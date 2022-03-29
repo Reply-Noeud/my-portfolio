@@ -658,5 +658,22 @@ video:focus {
         font-size: 15px;
         font-weight: 900;
     }
+    .play-btn {
+        width: 20px;
+        position: absolute;
+        left: 50%;
+        top: 20%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+    }
+
+    .small-img .play-btn {
+        width: 30px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+    }
 
 }
