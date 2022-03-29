@@ -632,3 +632,31 @@ video:focus {
     width: 30px;
     cursor: pointer;
 }
+
+@media (max-width: 720px) {
+    .video-player {
+        width: 92%;
+        position: absolute;
+        left: 48%;
+        top: 2130%;
+        transform: translate(-50%, -50%);
+        display: none;
+    }
+
+    .feature-img {
+        width: 50%;
+        margin: auto;
+        position: relative;
+        border-radius: 6px;
+        overflow: hidden;
+    }
+    
+    .feature-img p {
+        margin-left: 10px;
+        color: #ffffff;
+        line-height: 15px;
+        font-size: 15px;
+        font-weight: 900;
+    }
+
+}
