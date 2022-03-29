@@ -616,7 +616,7 @@ header {
     width: 69%;
     position: absolute;
     left: 48%;
-    top: 790%;
+    top: 720%;
     transform: translate(-50%, -50%);
     display: none;
 }
@@ -638,7 +638,7 @@ video:focus {
         width: 92%;
         position: absolute;
         left: 48%;
-        top: 1830%;
+        top: 1790%;
         transform: translate(-50%, -50%);
         display: none;
     }
